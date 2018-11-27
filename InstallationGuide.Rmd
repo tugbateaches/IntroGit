@@ -1,0 +1,61 @@
+---
+title: "Installation Guide"
+author: "by Tugba Ozturk"
+date: "November 27, 2018"
+output: pdf_document
+fontsize: 8pt
+mainfont: LiberationSans
+linkcolor: blue
+header-includes:
+   - \usepackage[dvipsnames]{xcolor}
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+I would like to start with acknowledging Jenny Bryan and Jim Hester for their book, **Happy Git and GitHub for the useR**, as well as Yinhui Xie for his amazing resources on R Markdown. 
+
+## \textcolor{Emerald}{What you need to install:}
+
+There are a couple of steps to set you up for this workshop. First, you need to install R and R Studio on your computer. I recommend the following resources:
+
+- [Click here](https://youtu.be/GFImMj1lMRI) to watch the video tutorial for Mac operating system.
+- [Click here](https://youtu.be/GAGUDL-4aVw) to watch the video tutorial for Windows operating system.
+- [Click here](https://youtu.be/tll0-VrNA_E) to watch the video tutorial for Linux operating system or simply follow the following instructions:
+
+    1. Open the terminal and type the following:
+
+        `sudo apt-get update`
+        
+        `sudo apt-get install r-base`
+
+    2. Visit [R Studio's website](www.rstudio.com) to install R Studio and follow their instructions. 
+
+
+Second, you need to install Git -- an open source, simple, distributed version control system.
+
+- Mac: Oepn the terminal (open the Spotlight Search and type Terminal) and type `git --version` to see if Git is already installed. If this returns nothing or an error, visit [this website](www.git-scm.com) and install Git. If it is confusing, you can watch this [video-tutorial](https://youtu.be/sJ4zr0a4GAs).
+- Windows: Visit [this website](www.git-scm.com) to install GitBash. You can also watch this [video tutorial](https://youtu.be/albr1o7Z1nw).
+- Linux: Open the terminal and type the following:
+
+    `git --version`
+    
+    `sudo apt-get update`
+    
+    `sudo apt-get install git`
+
+
+Third step is to create a free account on GitHub -- a web-based code hosting platform. You need to register with your email address. Be careful while choosing your user name. GitHub will be the place where you can showcase your codes (you can even use GitHub to present your cv or personal webpage). Therefore, it is important to choose the user name wisely: it needs to be short, somewhat formal and easy to remember!
+
+Done? Great! Now, you need to let Git know about your GitHub account. Open Git and type the following:
+
+  `git config --global user.name "your user name"`
+  
+  `git config --global user.email "your email address"`
+    
+Then, type `git config --list` if you wish to check what you have just configured.
+
+
