@@ -37,25 +37,24 @@ There are a couple of steps to set you up for this workshop. First, you need to 
 
 Second, you need to install Git -- an open source, simple, distributed version control system.
 
-- Mac: Oepn the terminal (open the Spotlight Search and type Terminal) and type `git --version` to see if Git is already installed. If this returns nothing or an error, visit [this website](www.git-scm.com) and install Git. If it is confusing, you can watch this [video-tutorial](https://youtu.be/sJ4zr0a4GAs).
+- Mac: Open the terminal (open the Spotlight Search and type Terminal) and type `git --version` to see if Git is already installed. If this returns nothing or an error, visit [this website](www.git-scm.com) and install Git. If it is confusing, you can watch this [video-tutorial](https://youtu.be/sJ4zr0a4GAs).
 - Windows: Visit [this website](www.git-scm.com) to install GitBash. You can also watch this [video tutorial](https://youtu.be/albr1o7Z1nw).
-- Linux: Open the terminal and type the following:
-
-    `git --version`
+- Linux: Open the terminal and type `git --version` to see if you already have it installed. Otherwise, type the following in the terminal:
     
     `sudo apt-get update`
     
     `sudo apt-get install git`
 
-
 Third step is to create a free account on GitHub -- a web-based code hosting platform. You need to register with your email address. Be careful while choosing your user name. GitHub will be the place where you can showcase your codes (you can even use GitHub to present your cv or personal webpage). Therefore, it is important to choose the user name wisely: it needs to be short, somewhat formal and easy to remember!
 
-Done? Great! Now, you need to let Git know about your GitHub account. Open Git and type the following:
+Done? Great! 
+
+Now, you need to let Git know about your GitHub account. On the terminal, type the following:
 
   `git config --global user.name "your user name"`
   
   `git config --global user.email "your email address"`
     
-Then, type `git config --list` if you wish to check what you have just configured.
+Then, type `git config --list` if you wish to check what you have just configured. 
 
 
